@@ -1,0 +1,259 @@
+:root {
+  --accent-color: #2196f3;
+  --color-title: #212121;
+  --color-description: #757575;
+  --accent-color-background: #2f303a;
+  --basic-color-background: #e5e5e5;
+  --secondary-color-background: #f5f4fa;
+  --basik-font: 'Roboto', sans-serif;
+  --color-logo-name: #000000;
+  --accent-color-font: #ffffff;
+  --header-backgroud-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--basik-font);
+  color: var(--color-description);
+  font-weight: 700;
+}
+
+/* =======================================HEADER============================================= */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-logo-name);
+}
+
+.logo-name:hover,
+.logo-name:focus {
+  color: var(--accent-color);
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+}
+
+.menu .menu-item.current {
+  color: var(--accent-color);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--accent-color);
+}
+
+.mail,
+.telefon {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-description);
+}
+
+.mail:hover,
+.mail:focus,
+.telefon:hover,
+.telefon:focus {
+  color: var(--accent-color);
+}
+
+.header {
+  background-color: var(--header-backgroud-color);
+}
+
+/* =======================================/HEADER============================================= */
+
+/* =======================================/HERO============================================= */
+
+.heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color-font);
+}
+
+.modal {
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--accent-color-font);
+  cursor: pointer;
+  background-color: var(--accent-color);
+  font-family: inherit;
+}
+
+.modal:hover,
+.modal:focus {
+  background-color: #188ce8;
+}
+
+.hero {
+  background: var(--accent-color-background);
+}
+
+/* =======================================/HERO============================================= */
+
+/* ===============================/ОСОБЕННОСТИ, РАБОТА, КОМАНДА======================================== */
+
+.subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-title);
+}
+
+.subtitle-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.heading-work,
+.heading-team {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+}
+
+.team-job {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.characteristic,
+.job {
+  background: var(--basic-color-background);
+}
+
+.our-team {
+  background-color: var(--secondary-color-background);
+}
+
+/* ===============================/ОСОБЕННОСТИ, РАБОТА, КОМАНДА======================================== */
+
+/* =======================================FOOTER============================================= */
+
+address {
+  font-style: normal;
+}
+
+.map,
+.address-mail,
+.address-telefon {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71x;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-font);
+}
+
+.address-mail,
+.address-telefon {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-white {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-font);
+}
+
+.map:hover,
+.map:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-telefon:hover,
+.address-telefon:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background: var(--accent-color-background);
+}
+
+/* =======================================/FOOTER============================================= */
+
+/* =======================================PORTFOLIO============================================= */
+
+.list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+  background-color: var(--secondary-color-background);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.list-button:hover,
+.list-button:focus {
+  color: var(--accent-color-font);
+  background-color: var(--accent-color);
+}
+
+.text {
+  background-color: var(--basic-color-background);
+}
+
+.name-project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-title);
+}
+
+.type-work {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/* ====================================/PORTFOLIO============================================= */
