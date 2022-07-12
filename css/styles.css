@@ -5,10 +5,11 @@
   --accent-color-background: #2f303a;
   --basic-color-background: #e5e5e5;
   --secondary-color-background: #f5f4fa;
-  --basik-font: 'Roboto', sans-serif;
+  --basic-font: 'Roboto', sans-serif;
   --color-logo-name: #000000;
   --accent-color-font: #ffffff;
   --header-backgroud-color: #ffffff;
+  --bcg-btn-hover-focus: #188ce8;
 }
 
 .list {
@@ -20,37 +21,46 @@
 }
 
 body {
-  font-family: var(--basik-font);
+  font-family: var(--basic-font);
   color: var(--color-description);
-  font-weight: 700;
+  background-color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* =======================================HEADER============================================= */
 
 .logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
 .logo-name {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--color-logo-name);
-}
-
-.logo-name:hover,
-.logo-name:focus {
-  color: var(--accent-color);
 }
 
 .menu-item {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-title);
@@ -68,7 +78,6 @@ body {
 .mail,
 .telefon {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-description);
@@ -100,6 +109,7 @@ body {
 }
 
 .modal {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -114,7 +124,7 @@ body {
 
 .modal:hover,
 .modal:focus {
-  background-color: #188ce8;
+  background-color: var(--bcg-btn-hover-focus);
 }
 
 .hero {
@@ -126,25 +136,22 @@ body {
 /* ===============================/ОСОБЕННОСТИ, РАБОТА, КОМАНДА======================================== */
 
 .subtitle {
-  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-title);
 }
 
 .subtitle-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .heading-work,
 .heading-team {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-title);
 }
 
@@ -153,7 +160,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-title);
 }
 
@@ -161,16 +167,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.characteristic,
-.job {
-  background: var(--basic-color-background);
-}
-
-.our-team {
-  background-color: var(--secondary-color-background);
 }
 
 /* ===============================/ОСОБЕННОСТИ, РАБОТА, КОМАНДА======================================== */
@@ -185,9 +181,7 @@ address {
 .address-mail,
 .address-telefon {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71x;
-  letter-spacing: 0.03em;
   color: var(--accent-color-font);
 }
 
@@ -198,9 +192,9 @@ address {
 
 .logo-white {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color-font);
 }
 
@@ -226,7 +220,6 @@ address {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-title);
   background-color: var(--secondary-color-background);
   cursor: pointer;
@@ -239,11 +232,8 @@ address {
   background-color: var(--accent-color);
 }
 
-.text {
-  background-color: var(--basic-color-background);
-}
-
 .name-project {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -253,7 +243,6 @@ address {
 .type-work {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
 
 /* ====================================/PORTFOLIO============================================= */
